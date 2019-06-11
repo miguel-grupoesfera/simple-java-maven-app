@@ -1,6 +1,7 @@
 package com.mycompany.app;
 
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
 import org.junit.Before;
 import org.junit.Test;
@@ -30,7 +31,7 @@ public class AppTest
     }
 
     @Test
-    public void testAppMain()
+    public void testAppMain() throws IOException
     {
         App.main(null);
         try {
