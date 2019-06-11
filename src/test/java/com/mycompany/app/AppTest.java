@@ -40,13 +40,6 @@ public class AppTest
         }
     }
 
-    @Test
-    public void testFail()
-    {
-        App.main(null);
-        fail("Falla explicita"); 
-    }
-
     @After
     public void cleanUpStreams() {
         System.setOut(null);
